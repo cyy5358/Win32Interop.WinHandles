@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using JetBrains.Annotations;
 using Win32Interop.WinHandles.Internal;
 
 namespace Win32Interop.WinHandles
@@ -25,7 +24,6 @@ namespace Win32Interop.WinHandles
     /// <param name="windowPredicate"> A predicate which determines if the given
     ///  window should be included in the collection returned. </param>
     /// <returns> A collection of windows that passed the predicate. </returns>
-    [NotNull]
     public static IEnumerable<WindowHandle> FindWindows(Predicate<WindowHandle> windowPredicate)
     {
       if (windowPredicate == null)

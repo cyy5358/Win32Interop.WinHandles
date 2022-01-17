@@ -1,3 +1,6 @@
+Code copied from https://github.com/zastrowm/Win32Interop.WinHandles
+Other part of this README.MD may be not fit due to my changing.
+
 # Win32Interop.WinHandles
 
 Provides an abstraction on-top of IntPtr for Win32 windows, and provides methods for interacting with Win32 windows. Inspired by the popularity [this stackoverflow answer](http://stackoverflow.com/a/20276701/548304).
